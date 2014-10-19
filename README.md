@@ -32,13 +32,13 @@ This repository contains the deliverables for the class assignment.
 
 ###Code book / variables explanation
 
-*train - a data frame that contains the training data from X_train.txt, with appended activity and subject columns from the Y_train.txt and subject_train.txt files respectively.
-*test - a data frame that contains the test data from X_test.txt, with appended activity and subject columns from the Y_test.txt and subject_test.txt files respectively.
-*activityLabels - a data frame that contains the data from activity_labels.txt.
-*features - a data frame that contains the data from features.txt.
-*comboDataset - a data frame that contains the combination of the train and test data frames.
-*colsToProcess - a vector of columns to process, with all but the last two columns determined by filtering features with "mean" and "std" in the names and the last two columns being the activity and subject columns.
-*tidyDataset - a data frame created by determining the mean of the aggregated Activity and Subject columns.
+* train - a data frame that contains the training data with appended training activity and subject columns.
+* test - a data frame that contains the test with appended test activity and subject columns.
+* activityLabels - a data frame that contains the data from activity_labels.txt.
+* features - a data frame that contains the data from features.txt.
+* comboDataset - a data frame that contains the combination of the train and test data frames.
+* colsToProcess - a vector of columns to process, with all but the last two columns determined by filtering features with "mean" and "std" in the names and the last two columns being the activity and subject columns.
+* tidyDataset - a data frame created by determining the mean of the aggregated Activity and Subject columns.
 
 ###Notes
 
