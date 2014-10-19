@@ -3,8 +3,7 @@
 
 This repository contains the deliverables for the class assignment.
 
-
-###Script explanation
+### Script explanation
 
 * set the working directory
 * load the train data
@@ -30,7 +29,7 @@ This repository contains the deliverables for the class assignment.
 * remove the Activity and SUbject columns  
 * write the tidyDataset to a file
 
-###Code book / variables explanation
+### Code book / variables explanation
 
 * train - a data frame that contains the training data with appended training activity and subject columns.
 * test - a data frame that contains the test with appended test activity and subject columns.
@@ -40,6 +39,11 @@ This repository contains the deliverables for the class assignment.
 * colsToProcess - a vector of columns to process, with all but the last two columns determined by filtering features with "mean" and "std" in the names and the last two columns being the activity and subject columns.
 * tidyDataset - a data frame created by determining the mean of the aggregated Activity and Subject columns.
 
-###Notes
+### Notes
 
 1. The numbers in colsToProcess define both the row numbers to select in the features table and the column numbers to select in comboDataset (not including the Activity and Subject columns).
+
+### External Sources
+
+I could not discern that the subject and activity files were csv files until I consulted the following source:
+    https://github.com/eriky/coursera-getting-and-cleaning-data
